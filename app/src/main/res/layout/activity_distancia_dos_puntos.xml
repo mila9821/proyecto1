@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DistanciaDosPuntos">
+    <fragment
+        android:id="@+id/mapa"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"/>
+    <TextView
+        android:id="@+id/txtdistancia"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textStyle="bold"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="distancia"/>
+</LinearLayout>
